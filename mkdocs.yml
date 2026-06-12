@@ -1,0 +1,32 @@
+site_name: My Docs
+site_name: Wiki Personal
+site_description: Archivo personal, notas, rutas e ideas
+site_author: Jorge Vázquez
+
+theme:
+  name: material
+  language: es
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.suggest
+
+nav:
+  - Inicio: index.md
+  - Ideas:
+      - Filosofía: ideas/filosofia.md
+      - Escritura: ideas/escritura.md
+  - Viajes:
+      - Yucatán: viajes/yucatan.md
+      - Rutas: viajes/rutas.md
+  - Fotografía:
+      - Equipo: fotografia/equipo.md
+      - Procesos: fotografia/procesos.md
+  - Vehículos:
+      - Montero Sport: vehiculos/montero-sport.md
+      - L200: vehiculos/l200.md
+  - Archivo:
+      - Lecturas: archivo/lecturas.md
+      - Glosario: archivo/glosario.md
