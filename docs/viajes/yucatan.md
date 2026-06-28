@@ -4,11 +4,24 @@ Notas sobre rutas, cenotes, zonas arqueológicas, pueblos, caminos secundarios y
 
 ## Cenotes
 
+Mapa de todos los cenotes con acceso público en la península de Yucatán. 
+
 <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1zpWQB7BxMPesZo41J5HjnsqhRCSr1mE&ehbc=2E312F" width="640" height="480"></iframe>
 
 - Noh-Mozón es el favorito hasta ahora
-- Cenotes menos visitados
-- Rutas de día completo
+- Santa Bárbara, dentro de los comerciales, es el que más prefiero sobre otros.
+- 10 cenotes hasta ahora (Junio 2026)
+
+## Zonas Arqueológicas
+
+Mapa de todas las zonas arqueológicas de la península de Yucatán en las que he estado.
+
+<iframe src="https://www.google.com/maps/d/u/1/embed?mid=1uQuV_6BMdQQ6_ZEq_EwjRdJKW-F-rqo&ehbc=2E312F" width="640" height="480"></iframe>
+
+- El Resbalón nos permitió acceder a un sitio arqueológica no controlador por el INAH
+- El Hormiguero fue una de las rutas de asfalto más accidentadas
+- Lamanai ha sido de los inusuales accesos a una zona arqueológica al llegar por lancha
+- Kinichná en 2008 estuvimos solos en la cima de la única pirámide abierta entonces.
 
 ## Ideas pendientes
 
