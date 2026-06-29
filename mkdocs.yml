@@ -1,7 +1,7 @@
 site_name: My Docs
 site_name: Wiki Personal
 site_description: Archivo personal, notas, rutas e ideas
-site_author: Jorge Vázquez
+site_author: JôrgW
 
 theme:
   name: material
@@ -22,6 +22,8 @@ nav:
   - Viajes:
       - Yucatán: viajes/yucatan.md
       - Rutas: viajes/rutas.md
+      - México: viajes/mexico.md
+      - Mundo: viajes/mundo.md
   - Fotografía:
       - Equipo: fotografia/equipo.md
       - Procesos: fotografia/procesos.md
