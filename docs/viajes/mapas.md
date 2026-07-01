@@ -5,3 +5,19 @@ Colección de mapas, rutas y referencias visuales para los destinos que he visit
 - Mapas de viajes por carretera.
 - Mapas de cenotes y zonas arqueológicas.
 - Rutas alternativas y caminos secundarios.
+
+# Mundo
+
+<iframe src="https://www.google.com/maps/d/u/1/embed?mid=1-YcV1WikDjcfnWiXio_g8zs3C7YwsKE&ehbc=2E312F" width="640" height="480"></iframe>
+
+# Pueblos Mágicos
+
+<iframe src="https://www.google.com/maps/d/u/1/embed?mid=1B0aTl_8thosvYTwVj0th-DSC7FcAxoE&ehbc=2E312F" width="640" height="480"></iframe>
+
+# Cenotes
+
+<iframe src="https://www.google.com/maps/d/u/1/embed?mid=1zpWQB7BxMPesZo41J5HjnsqhRCSr1mE&ehbc=2E312F" width="640" height="480"></iframe>
+
+# Zonas Arqueológicas
+
+<iframe src="https://www.google.com/maps/d/u/1/embed?mid=1uQuV_6BMdQQ6_ZEq_EwjRdJKW-F-rqo&ehbc=2E312F" width="640" height="480"></iframe>
