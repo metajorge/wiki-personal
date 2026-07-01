@@ -18,10 +18,10 @@ Mapa de todas las zonas arqueológicas de la península de Yucatán en las que h
 
 <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1uQuV_6BMdQQ6_ZEq_EwjRdJKW-F-rqo&ehbc=2E312F" width="640" height="480"></iframe>
 
-- El Resbalón nos permitió acceder a un sitio arqueológica no controlador por el INAH
+- El Resbalón nos permitió acceder a un sitio arqueológico no controlado por el INAH
 - El Hormiguero fue una de las rutas de asfalto más accidentadas
 - Lamanai ha sido de los inusuales accesos a una zona arqueológica al llegar por lancha
-- Kinichná en 2008 estuvimos solos en la cima de la única pirámide abierta entonces.
+- Kinichná, en 2008, fue genial y estuvimos solos en la cima de la única pirámide abierta
 
 ## Ideas pendientes
 
