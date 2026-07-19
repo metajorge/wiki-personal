@@ -1,6 +1,6 @@
-site_name: My Docs
 site_name: Wiki Personal
-site_description: Archivo personal, notas, rutas e ideas
+site_url: https://archivo.jorgw.com
+site_description: Archivo personal, wiki, rutas e ideas
 site_author: JôrgW
 
 theme:
