@@ -31,6 +31,16 @@ Mapa de todas las zonas arqueológicas de la península de Yucatán en las que h
 
 Los puntos verdes han sido visitados y los rojos están pendientes.
 
+¿Cuántas haciendas hay o hubo en Yucatán?
+
+La cifra histórica más útil: 1,170
+
+La cifra más repetida para el apogeo henequenero es de 1,170 haciendas alrededor de 1910. Un recuento histórico señala que en 1877 había 1,145 en Yucatán y que para 1910 se alcanzaron 1,170.
+
+Entre 50 y 80 haciendas históricas tienen alguna modalidad comprobable de acceso público o comercial.
+
+La cifra central razonable es aproximadamente 65.
+
 ## Ideas pendientes
 
 - Mapa de rutas
