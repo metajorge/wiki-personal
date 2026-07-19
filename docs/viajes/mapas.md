@@ -27,3 +27,9 @@ Mapa de Cenotes con acceso público en la Península de Yucatán
 # Zonas Arqueológicas
 
 <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1uQuV_6BMdQQ6_ZEq_EwjRdJKW-F-rqo&ehbc=2E312F" width="640" height="480"></iframe>
+
+# Haciendas de Yucatán
+
+Mapa con ubicaciones de Haciendas con acceso público.
+
+<iframe src="https://www.google.com/maps/d/u/1/embed?mid=1--HkQmj5JXdbBzl26Q0KqvbMJJ9_lW0&ehbc=2E312F" width="640" height="480"></iframe>
