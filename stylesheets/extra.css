@@ -1,0 +1,211 @@
+/* Portada Archivo / Wiki Personal */
+
+.md-header {
+  background: #1f3446;
+}
+
+.md-tabs {
+  background: #1f3446;
+}
+
+.md-tabs__link {
+  font-weight: 600;
+  opacity: 0.82;
+}
+
+.md-tabs__link--active,
+.md-tabs__link:hover {
+  opacity: 1;
+}
+
+/* Importante:
+   NO ocultar .md-content globalmente.
+   Eso rompe el contenido de todas las páginas. */
+
+.jw-home {
+  margin-top: 0;
+  min-height: calc(100vh - 6.4rem);
+  padding: 5rem 1.2rem 5.8rem;
+  color: #ffffff;
+  background:
+    radial-gradient(circle at 76% 22%, rgba(95, 202, 180, 0.24), transparent 24rem),
+    radial-gradient(circle at 20% 75%, rgba(67, 116, 156, 0.32), transparent 28rem),
+    linear-gradient(135deg, #1f3446 0%, #223b50 45%, #2e5f6c 100%);
+  overflow: hidden;
+}
+
+.jw-home__inner {
+  max-width: 1220px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(0, 1.08fr) minmax(340px, 0.92fr);
+  gap: 4.5rem;
+  align-items: center;
+}
+
+.jw-home__eyebrow {
+  margin: 0 0 1rem;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+}
+
+.jw-home h1 {
+  max-width: 790px;
+  margin: 0;
+  color: #ffffff;
+  font-size: clamp(2.8rem, 6vw, 5.25rem);
+  font-weight: 800;
+  line-height: 0.94;
+  letter-spacing: -0.055em;
+}
+
+.jw-home__description {
+  max-width: 700px;
+  margin: 1.35rem 0 2.1rem;
+  color: rgba(255, 255, 255, 0.80);
+  font-size: clamp(0.98rem, 1.4vw, 1.1rem);
+  line-height: 1.65;
+}
+
+.jw-home__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.jw-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.55rem;
+  padding: 0.65rem 1.15rem;
+  border: 0.1rem solid rgba(255, 255, 255, 0.58);
+  border-radius: 0.22rem;
+  color: #ffffff !important;
+  font-weight: 700;
+  text-decoration: none !important;
+  transition: background 150ms ease, color 150ms ease, border-color 150ms ease;
+}
+
+.jw-button:hover {
+  color: #1f3446 !important;
+  background: #ffffff;
+  border-color: #ffffff;
+}
+
+.jw-button--primary {
+  color: #1f3446 !important;
+  background: #ffffff;
+  border-color: #ffffff;
+}
+
+.jw-button--primary:hover {
+  color: #ffffff !important;
+  background: rgba(255, 255, 255, 0.12);
+  border-color: #ffffff;
+}
+
+.jw-home__panel {
+  width: 100%;
+  max-width: 470px;
+  justify-self: end;
+  padding: 1.15rem;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 1rem;
+  background: rgba(14, 27, 41, 0.72);
+  box-shadow:
+    0 2rem 5rem rgba(0, 0, 0, 0.30),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(14px);
+}
+
+.jw-panel__label {
+  margin: 0 0 0.75rem;
+  padding: 0 0.15rem;
+  color: rgba(255, 255, 255, 0.60);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.jw-panel__link {
+  display: block;
+  padding: 0.95rem 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 0.55rem;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  transition: background 150ms ease, transform 150ms ease;
+}
+
+.jw-panel__link:first-of-type {
+  border-top: 0;
+}
+
+.jw-panel__link:hover {
+  background: rgba(255, 255, 255, 0.10);
+  transform: translateX(3px);
+}
+
+.jw-panel__link span {
+  display: block;
+  margin-bottom: 0.2rem;
+  color: #ffffff;
+  font-size: 0.96rem;
+  font-weight: 800;
+}
+
+.jw-panel__link small {
+  display: block;
+  color: rgba(255, 255, 255, 0.66);
+  font-size: 0.73rem;
+  line-height: 1.45;
+}
+
+/* Ajustes para páginas normales */
+
+.md-content__inner {
+  padding-bottom: 2rem;
+}
+
+.md-typeset a {
+  text-decoration-thickness: 0.08em;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 960px) {
+  .jw-home {
+    min-height: auto;
+    padding-top: 3.4rem;
+  }
+
+  .jw-home__inner {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .jw-home__panel {
+    max-width: 100%;
+    justify-self: stretch;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .jw-home {
+    padding: 2.8rem 1rem 3.8rem;
+  }
+
+  .jw-home__actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .jw-button {
+    width: 100%;
+  }
+}
