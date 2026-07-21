@@ -69,8 +69,8 @@
   padding-bottom: 2rem;
 }
 
-.md-footer {
-  display: block;
+.md-footer-meta {
+  display: none;
 }
 
 
