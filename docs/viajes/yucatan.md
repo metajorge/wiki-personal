@@ -31,7 +31,7 @@ Mapa de todas las zonas arqueológicas de la península de Yucatán en las que h
 
 Los puntos verdes han sido visitados y los rojos están pendientes.
 
-¿Cuántas haciendas hay o hubo en Yucatán?
+###¿Cuántas haciendas hay o hubo en Yucatán?
 
 La cifra histórica más útil: 1,170
 
