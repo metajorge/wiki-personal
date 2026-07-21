@@ -211,16 +211,33 @@
 }
 
 .md-content__inner {
-  padding-bottom: 0;
+  padding-bottom: 2rem;
 }
 
 /* En la portada, no necesitamos mostrar el contenedor vacío de contenido */
 
+/* Páginas internas normales */
+
 .md-main {
-  background: transparent;
+  background: var(--md-default-bg-color);
 }
 
-.md-footer {
+.md-content {
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+}
+
+.md-content__inner {
+  padding-bottom: 2rem;
+}
+
+/* Ocultar el contenedor vacío sólo en la portada */
+
+body:has(.jw-home) .md-main {
+  display: none;
+}
+
+body:has(.jw-home) .md-footer {
   display: none;
 }
 
