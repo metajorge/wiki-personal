@@ -3,7 +3,25 @@
 {% block extrahead %}
 {{ super() }}
 <style>
+  /* En el home, no ocultamos .md-main porque ahí vive
+     el drawer móvil del menú hamburguesa. */
+
   .md-main {
+    min-height: 0 !important;
+    background: transparent !important;
+  }
+
+  .md-main__inner {
+    min-height: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  .md-content {
+    display: none !important;
+  }
+
+  .md-sidebar--secondary {
     display: none !important;
   }
 
