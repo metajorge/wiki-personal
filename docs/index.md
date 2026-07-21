@@ -1,14 +1,9 @@
-# Wiki Personal
+---
+template: home.html
+title: Archivo
+hide:
+  - navigation
+  - toc
+---
 
-Este es mi archivo público de notas, rutas, ideas, fotografía, vehículos y proyectos.
-
-## Secciones principales
-
-- Ideas
-- Viajes
-- Fotografía
-- Vehículos
-- Archivo
-- Overland
-- Seznos   jjjjj 
-- Guardado???
+Archivo personal, wiki y notas de JörgW

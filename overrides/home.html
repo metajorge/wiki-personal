@@ -1,0 +1,64 @@
+{% extends "main.html" %}
+
+{% block tabs %}
+{{ super() }}
+
+<section class="jw-home">
+  <div class="jw-home__inner">
+    <div class="jw-home__content">
+      <p class="jw-home__eyebrow">Archivo / Wiki Personal</p>
+
+      <h1>Un archivo vivo de rutas, notas, ideas y memoria</h1>
+
+      <p class="jw-home__description">
+        Un espacio personal para reunir viajes, literatura, fotografía, vehículos,
+        mapas, lecturas y fragmentos de una memoria en construcción. No es
+        exactamente un blog ni una biblioteca cerrada: es una wiki propia,
+        cambiante y ordenada alrededor de lo que vale la pena conservar.
+      </p>
+
+      <div class="jw-home__actions">
+        <a href="https://jorgw.com" class="jw-button jw-button--primary">
+          Sitio Principal
+        </a>
+        <a href="https://www.jorge.vc" class="jw-button">
+          Post Notes
+        </a>
+      </div>
+    </div>
+
+    <aside class="jw-home__panel">
+      <p class="jw-panel__label">Explorar archivo</p>
+
+      <a href="/viajes/mapas/" class="jw-panel__link">
+        <span>Viajes</span>
+        <small>Rutas, países, mapas y notas de campo</small>
+      </a>
+
+      <a href="/ideas/escritura/" class="jw-panel__link">
+        <span>Literatura</span>
+        <small>Escritura, filosofía, música y fragmentos</small>
+      </a>
+
+      <a href="/fotografia/equipo/" class="jw-panel__link">
+        <span>Fotografía</span>
+        <small>Equipo, procesos y memoria visual</small>
+      </a>
+
+      <a href="/vehiculos/montero-sport/" class="jw-panel__link">
+        <span>Vehículos</span>
+        <small>Montero Sport, L200 y preparación overland</small>
+      </a>
+
+      <a href="/archivo/lecturas/" class="jw-panel__link">
+        <span>Archivo</span>
+        <small>Lecturas, glosario y referencias</small>
+      </a>
+    </aside>
+  </div>
+</section>
+
+{% endblock %}
+
+{% block content %}{% endblock %}
+{% block footer %}{% endblock %}

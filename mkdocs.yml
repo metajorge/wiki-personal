@@ -1,4 +1,4 @@
-site_name: Wiki Personal
+site_name: Archivo
 site_url: https://archivo.jorgw.com
 site_description: Archivo personal, wiki, rutas e ideas
 site_author: JôrgW
@@ -6,24 +6,30 @@ site_author: JôrgW
 theme:
   name: material
   language: es
+  custom_dir: overrides
   features:
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
     - navigation.top
     - search.highlight
     - search.suggest
 
+extra_css:
+  - stylesheets/extra.css
+
 nav:
-  - Inicio: index.md
-  - Ideas:
-      - Filosofía: ideas/filosofia.md
-      - Escritura: ideas/escritura.md
-      - Música: ideas/musica.md
+  - Home: index.md
   - Viajes:
-      - Yucatán: viajes/yucatan.md
-      - México: viajes/mexico.md
-      - Mundo: viajes/mundo.md
       - Mapas: viajes/mapas.md
+      - Mundo: viajes/mundo.md
+      - México: viajes/mexico.md
+      - Yucatán: viajes/yucatan.md
+  - Literatura:
+      - Escritura: ideas/escritura.md
+      - Filosofía: ideas/filosofia.md
+      - Música: ideas/musica.md
   - Fotografía:
       - Equipo: fotografia/equipo.md
       - Procesos: fotografia/procesos.md
