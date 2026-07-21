@@ -2,12 +2,28 @@
    Portada Archivo / Wiki Personal
    ================================ */
 
+/* Header y menú superior con imagen de fondo integrada */
+
+.md-header,
+.md-tabs {
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.38),
+      rgba(0, 0, 0, 0.38)
+    ),
+    url("../assets/images/portada.webp");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
 .md-header {
-  background: #1f3446;
+  box-shadow: none;
 }
 
 .md-tabs {
-  background: #1f3446;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+  box-shadow: none;
 }
 
 .md-tabs__link {
@@ -20,8 +36,7 @@
   opacity: 1;
 }
 
-/* No ocultar .md-content.
-   Eso rompería las páginas internas. */
+/* Portada */
 
 .jw-home {
   min-height: calc(100vh - 6.4rem);
@@ -29,12 +44,12 @@
   color: #ffffff;
   background:
     linear-gradient(
-      rgba(0, 0, 0, 0.16),
-      rgba(0, 0, 0, 0.16)
+      rgba(0, 0, 0, 0.28),
+      rgba(0, 0, 0, 0.28)
     ),
     url("../assets/images/portada.webp");
   background-size: cover;
-  background-position: center;
+  background-position: center top;
   background-repeat: no-repeat;
 }
 
@@ -78,7 +93,7 @@
   line-height: 1.65;
 }
 
-/* Botones estilo Material, pero controlados por nosotros */
+/* Botones */
 
 .jw-home__actions {
   display: flex;
@@ -189,11 +204,28 @@
   line-height: 1.45;
 }
 
-/* Páginas internas normales */
+/* Corrección del espacio blanco inferior en portada */
+
+.md-main__inner {
+  margin-top: 0;
+}
 
 .md-content__inner {
-  padding-bottom: 2rem;
+  padding-bottom: 0;
 }
+
+/* En la portada, no necesitamos mostrar el contenedor vacío de contenido */
+
+.md-main {
+  background: transparent;
+}
+
+.md-footer {
+  display: none;
+}
+
+/* Páginas internas normales:
+   No ocultamos .md-content, para no romper el contenido. */
 
 /* Responsive */
 
@@ -227,4 +259,7 @@
   .jw-home__button {
     width: 100%;
   }
+}
+.md-main {
+  display: none;
 }
