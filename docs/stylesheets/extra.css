@@ -1,8 +1,12 @@
 /* ================================
-   Portada Archivo / Wiki Personal
+   Archivo / Wiki Personal
+   extra.css corregido
    ================================ */
 
-/* Header y menú superior con imagen de fondo integrada */
+
+/* ================================
+   Header y navegación superior
+   ================================ */
 
 .md-header,
 .md-tabs {
@@ -36,7 +40,43 @@
   opacity: 1;
 }
 
-/* Portada */
+
+/* ================================
+   Páginas internas normales
+   ================================ */
+
+/* IMPORTANTE:
+   Nunca ocultar .md-main, .md-content ni .md-content__inner globalmente.
+   Ahí vive el contenido de páginas como /viajes/mapas/.
+*/
+
+.md-main {
+  display: block;
+  background: var(--md-default-bg-color);
+}
+
+.md-main__inner {
+  margin-top: 1.5rem;
+}
+
+.md-content {
+  display: block;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+}
+
+.md-content__inner {
+  padding-bottom: 2rem;
+}
+
+.md-footer {
+  display: block;
+}
+
+
+/* ================================
+   Portada
+   ================================ */
 
 .jw-home {
   min-height: calc(100vh - 6.4rem);
@@ -93,7 +133,10 @@
   line-height: 1.65;
 }
 
-/* Botones */
+
+/* ================================
+   Botones de portada
+   ================================ */
 
 .jw-home__actions {
   display: flex;
@@ -142,7 +185,10 @@
   border-color: #ffffff;
 }
 
-/* Panel derecho */
+
+/* ================================
+   Panel derecho de portada
+   ================================ */
 
 .jw-home__panel {
   width: 100%;
@@ -204,47 +250,23 @@
   line-height: 1.45;
 }
 
-/* Corrección del espacio blanco inferior en portada */
 
-.md-main__inner {
-  margin-top: 0;
+/* ================================
+   Ajustes visuales de contenido
+   ================================ */
+
+.md-typeset a {
+  text-decoration-thickness: 0.08em;
 }
 
-.md-content__inner {
-  padding-bottom: 2rem;
+.md-typeset h1 {
+  font-weight: 700;
 }
 
-/* En la portada, no necesitamos mostrar el contenedor vacío de contenido */
 
-/* Páginas internas normales */
-
-.md-main {
-  background: var(--md-default-bg-color);
-}
-
-.md-content {
-  background: var(--md-default-bg-color);
-  color: var(--md-default-fg-color);
-}
-
-.md-content__inner {
-  padding-bottom: 2rem;
-}
-
-/* Ocultar el contenedor vacío sólo en la portada */
-
-body:has(.jw-home) .md-main {
-  display: none;
-}
-
-body:has(.jw-home) .md-footer {
-  display: none;
-}
-
-/* Páginas internas normales:
-   No ocultamos .md-content, para no romper el contenido. */
-
-/* Responsive */
+/* ================================
+   Responsive
+   ================================ */
 
 @media screen and (max-width: 960px) {
   .jw-home {
@@ -276,7 +298,4 @@ body:has(.jw-home) .md-footer {
   .jw-home__button {
     width: 100%;
   }
-}
-.md-main {
-  display: none;
 }
